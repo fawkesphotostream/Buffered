@@ -1,0 +1,29 @@
+h1 {
+  color: white;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .well {
+    border: 1px rgb(161, 161, 161) solid;
+    height: 350px;
+    margin-bottom: 0.7em;
+  }
+
+  #movies .col-md-2 img {
+    height: 240px;
+  }
+}
+
+p {
+  margin: 0.5em;
+}
+
+#detailbutton {
+  position: relative;
+  margin-bottom: 1em;
+}
